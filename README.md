@@ -1,5 +1,7 @@
 # 画像を白黒のモザイクアートに変換し，テキストデータを作成するコード  
 任意の画像を読み込ませると，その画像を一度モザイクアートに変換し，テキストデータを作成します．  
+  
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/e1ffcf1f-7dc6-448b-b74b-a728244553c8" />
 
 ## 内容物  
 ### データセット関連
@@ -23,7 +25,6 @@
 どちらかのコードの3セル目の  
 `font = PIL.ImageFont.truetype("MSMINCHO.TTF",300)`  
 の`"MSMINCHO.TTF"`を任意のフォントデータに書き換えてください．  
-
 3. 全てのセルを実行します．Datasets_MSGothic.csvまたはDatasets_MSMincho.csvというcsvファイルが作成されます．  
 
 以上でデータセット作成は終了です．
